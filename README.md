@@ -17,8 +17,11 @@ El proyecto ha sido deployado a Render y puede ser accedido mediante el siguient
 https://parcialmutanteadn-davidalvarez.onrender.com
 
 Endpoints
+
 POST: Para poder inyectar una secuencia y utilizar el servicio agregar al final de la URL "/mutant" - Recibe un JSON con la matriz de ADN a verificar.
+
 Ejemplo:
+
 {
     "dna": [
         "ATGCGA",
@@ -29,8 +32,11 @@ Ejemplo:
         "TCACTG"
     ]
 }
+
 GET: Para poder obtener un stats o dato de la Base de datos se debera agregar al final de la URL "/stats" - Devuelve un JSON con la cantidad de mutantes y humanos verificados. 
+
 Ejemplo:
+
 {
     "count_mutant_dna": 40,
     "count_human_dna": 100,
